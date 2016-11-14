@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+}
+body {
+	color: #DFDFDF;
+	background: black;
+	background: #652d8e url('/assets/img/background.jpg') bottom center no-repeat;
+}
+
+.navbar-inverse {
+	background-color: #000000;
+	/*box-shadow: 0px 7px 20px black;*/
+	border-bottom: 1px solid #333;
+}
+
+.container {
+	color: black;
+}
+
+.content {
+	min-height: 100%;
+}
+
+.row {
+	background: #DFDFDF;
+	/*box-shadow: 1px 1px 1px 0px rgba(1,1,1,.5);*/
+}
+
+.well {
+	color: #353535;
+}
+
+footer {
+	padding: 9px 0 0 0;
+	/*box-shadow: 0px 0px 15px 5px black;*/
+	background: black;
+	height: 40px;
+	margin: -40px 0 0 0;
+	border-top: 1px solid #333;
+}
+
+.footer {
+	color: white;
+}

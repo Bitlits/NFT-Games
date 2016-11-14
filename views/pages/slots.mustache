@@ -1,0 +1,186 @@
+{{>head}}
+
+<style>
+.slot-icon {
+	background: url('/assets/img/icons-sprite-{{altcoinl}}.jpg') no-repeat;
+}
+</style>
+
+	<div class="row">
+		<div class="game">
+			<div class="row gameRow">
+				<div class="col-lg-4 col-sm-4 col-4">
+					<div class="gameData"><span class="balance">{{balance}}</span> {{altc}}</div>
+					Credits
+				</div>
+				<div class="col-lg-4 col-sm-4 col-4">
+					<div class="gameData">.1 {{altc}}</div>
+					Bet Amount
+				</div>
+				<div class="col-lg-4 col-sm-4 col-4">
+					<div class="gameData"><span class="jackpot">{{slotsJackpot}}</span> {{altc}}</div>
+					Winner Paid
+				</div>
+			</div>
+			<div class="text-center">
+				<div class="odds">
+					<p class="sm-margin">Jackpot
+						<span class="pull-right">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+						</span>
+					</p>
+					<p class="sm-margin">10 {{altc}}
+						<span class="pull-right">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+						</span>
+					</p>
+					<p class="sm-margin">5 {{altc}}
+						<span class="pull-right">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+						</span>
+					</p>
+					<p class="sm-margin">1 {{altc}}
+						<span class="pull-right">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+						</span>
+					</p>
+					<p class="sm-margin">.1 {{altc}}
+						<span class="pull-right">
+							<img src="/assets/img/logo-{{altcoinl}}.png" class="payout-icon">
+						</span>
+					</p>
+				</div>
+			</div>
+			<!-- <div class="text-center" style="height: 45px">
+				<h2 class="results"></h2>
+			</div> -->
+			<div class="text-center">
+				<ul class="slot">
+					<li><div class="slot-icon slot-icon-bell"></div></li>
+					<li><div class="slot-icon slot-icon-drink"></div></li>
+					<li><div class="slot-icon slot-icon-lemon"></div></li>
+					<li><div class="slot-icon slot-icon-gloves"></div></li>
+					<li><div class="slot-icon slot-icon-melon"></div></li>
+					<li><div class="slot-icon slot-icon-ring"></div></li>
+					<li><div class="slot-icon slot-icon-altcoin"></div></li>
+					<li><div class="slot-icon slot-icon-woman"></div></li>
+					<li><div class="slot-icon slot-icon-watch"></div></li>
+					<li><div class="slot-icon slot-icon-cherry"></div></li>
+				</ul>
+			</div>
+			<div class="text-center">
+				<input type="button" id="play" value="Spin!" class="btn btn-default btn-large btn-spin">
+			</div>
+			<div class="text-center">
+				<input type="checkbox" class="mute"> Mute
+			</div>
+			<div class="text-center results"></div>
+		</div>
+	</div>
+
+
+<script src="/assets/js/jquery.slots.js"></script>
+<script src="/assets/js/jquery.easing.js"></script>
+<script>
+
+var balance = parseFloat($(".balance").html());
+var jackpot = parseFloat($(".jackpot").html());
+var paid = false;
+
+var playSound = function(sound){
+	if(!$(".mute").is(":checked")){
+		if(sound=="win")
+			var audio = new Audio("/assets/sounds/cash-register-01.wav");
+		else if(sound=="spin")
+			var audio = new Audio("/assets/sounds/spin-slots.mp3");
+		audio.play();
+	}
+}
+
+var won = function (amount){
+	if(paid){
+		balance = balance + amount;
+		balance = Number(balance.toFixed(3));
+		$(".balance").html(balance);
+		$(".results").html("You won " + amount + " {{altc}}!");
+		playSound("win");
+	}else{
+		$(".results").html("You won " + amount + " {{altc}}!");
+		playSound("win");
+	}
+	$(".results").fadeIn();
+}
+
+var lost = function(){
+	$(".results").html("You lost, try again!");
+	$(".results").fadeIn();
+}
+
+var checkForWin = function(numbers){
+	$(".jackpot").html(jackpot);
+	if(numbers[4]==7 && numbers[3]==7 && numbers[2]==7 && numbers[1]==7 && numbers[0]==7){
+		won(jackpot);
+	}else if(
+		(numbers[4]==7 && numbers[3]==7 && numbers[2]==7 && numbers[1]==7) ||
+		(numbers[3]==7 && numbers[2]==7 && numbers[1]==7 && numbers[0]==7)){
+		won(10);
+	}else if(
+		(numbers[4]==7 && numbers[3]==7 && numbers[2]==7) ||
+		(numbers[3]==7 && numbers[2]==7 && numbers[1]==7) ||
+		(numbers[2]==7 && numbers[1]==7 && numbers[0]==7)){
+		won(5);
+	}else if(
+		(numbers[4]==7 && numbers[3]==7) ||
+		(numbers[3]==7 && numbers[2]==7) ||
+		(numbers[2]==7 && numbers[1]==7) ||
+		(numbers[1]==7 && numbers[0]==7)){
+		won(1);
+	}else if(numbers[4]==7 || numbers[3]==7 || numbers[2]==7 || numbers[1]==7 || numbers[0]==7){
+		won(.1);
+	}else{
+		lost();
+	}
+}
+
+var clearResults = function(){
+	$(".results").fadeOut();
+	playSound("spin");
+	if(balance >= .1){
+		balance = balance - .1;
+		balance = Number(balance.toFixed(3));
+		paid = true;
+		$(".balance").html(balance);
+	}else
+		paid = false;
+}
+
+$('.slot').jSlots({
+	number : 5,
+	winnerNumber : 7,
+	spinner : '#play',
+	easing : 'easeOutSine',
+	onEnd : checkForWin,
+	onStart : clearResults,
+	loops : 6
+});
+
+$(function(){
+	$(".slot").each(function(key, slot){
+		var random = Math.floor((Math.random()*10));
+		var top = random * -140;
+		$(slot).css("top",top);
+	});
+});
+</script>
+
+{{>foot}}

@@ -1,0 +1,145 @@
+
+.wrapper {
+	overflow: hidden;
+	height: 140px;
+	display: inline-block;
+	border: 1px solid white;
+	width: 662px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 15px;
+}
+
+.wrapper-old{
+	background: #c3d825; /* Old browsers */
+	background: -moz-linear-gradient(top, #c3d825 1%, #e6f0a3 30%, #e9efba 50%, #e6f0a3 70%, #c3d825 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#c3d825), color-stop(30%,#e6f0a3), color-stop(50%,#e9efba), color-stop(70%,#e6f0a3), color-stop(100%,#c3d825)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #c3d825 1%,#e6f0a3 30%,#e9efba 50%,#e6f0a3 70%,#c3d825 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #c3d825 1%,#e6f0a3 30%,#e9efba 50%,#e6f0a3 70%,#c3d825 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #c3d825 1%,#e6f0a3 30%,#e9efba 50%,#e6f0a3 70%,#c3d825 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #c3d825 1%,#e6f0a3 30%,#e9efba 50%,#e6f0a3 70%,#c3d825 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d825', endColorstr='#c3d825',GradientType=0 ); /* IE6-9 */
+}
+
+.slot {
+	list-style-type: none;
+	margin: 0 1px;
+	padding: 0;
+	line-height: 140px;
+	font-size: 140px;
+	font-weight: bold;
+	float: left;
+	border-left: 0px solid #999;
+}
+.slot:first-child{
+	border-left: 0px;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.slot > li {
+	font-weight: bold;
+	color: #D10707;
+	font-family: 'Gravitas One', serif;
+	text-shadow: -3px -3px 3px #000, 3px -3px 3px #000, -3px 3px 3px #000, 3px 3px 3px #000;
+}
+
+
+.slot-icon {
+	background: url('/assets/img/icons-sprite.jpg') no-repeat;
+	height: 140px;
+	width: 130px;
+	position: relative;
+}
+	.slot-icon-bell {
+		background-position: -145px -125px !important;
+	}
+	.slot-icon-cherry {
+		background-position: -145px -301px !important;
+	}
+	.slot-icon-watch {
+		background-position: -145px -479px !important;
+	}
+	.slot-icon-drink {
+		background-position: -325px -125px !important;
+	}
+	.slot-icon-melon {
+		background-position: -325px -301px !important;
+	}
+	.slot-icon-woman {
+		background-position: -325px -479px !important;
+	}
+	.slot-icon-altcoin {
+		background-position: -532px -125px !important;
+	}
+	.slot-icon-lemon {
+		background-position: -542px -301px !important;
+	}
+	.slot-icon-ring {
+		background-position: -545px -479px !important;
+	}
+	.slot-icon-gloves {
+		background-position: -721px -125px !important;
+	}
+	.slot-icon-wild1 {
+		background-position: -721px -301px !important;
+	}
+	.slot-icon-wild2 {
+		background-position: -721px -479px !important;
+	}
+
+.game {
+	background: black;
+	border-radius: 30px;
+	width: 712px;
+	margin: 25px auto;
+	padding: 0 25px 10px;
+	color: white;
+}
+
+.gameRow {
+	margin: 10px 0 20px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.gameData {
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	line-height: 29px;
+}
+
+.odds {
+	text-align: left;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+.btn-spin {
+	border-radius: 10px;
+	border: 1px solid;
+	padding: 10px 40px;
+	margin: 10px;
+}
+
+.sm-margin {
+	margin: 10px 0;
+}
+
+.payout-icon{
+	height: 25px;
+	width: 25px;
+}
+
+.row {
+	background: transparent;
+	box-shadow: 0 0 0 0;
+}
