@@ -16,13 +16,9 @@ TODO: Write usage instructions
 
 Functional & non-functional requirements
 
-1. Splash Screen
+1. Profile
 2. Sign Up
 3. Login
-4. Google Map api 
-5. Request "Service"
-6. Profile
-7. Review 
 
 ## Contributing
 
