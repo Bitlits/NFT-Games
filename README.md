@@ -1,3 +1,4 @@
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/Jfaler/soup)
 # Bitcoin-Slot-Machine
 User accounts are anonymous and created with a unique hash.  Slots are progressive. Weekly and Monthly jackpots take from slot rolls.
 
