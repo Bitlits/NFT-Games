@@ -7,13 +7,9 @@ User accounts are anonymous and created with a unique hash.  Slots are progressi
 1.0.1.5
 
 ## Installation
-
-TODO: Describe the installation process
-
-## Usage
-
-TODO: Write usage instructions 
-
+`
+$ git clone https://github.com/Jfaler/soup
+`
 ## TODO 
 
 Functional & non-functional requirements
@@ -30,14 +26,3 @@ Functional & non-functional requirements
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
