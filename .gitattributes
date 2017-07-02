@@ -17,4 +17,4 @@
 *.RTF	 diff=astextplain
 
 
-assets/* linguist-vendored
+assets/css/* linguist-vendored
