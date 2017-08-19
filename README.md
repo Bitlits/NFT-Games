@@ -1,4 +1,6 @@
 [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/Jfaler/Bitcoin-Slot-Machine/releases)
+[![GitHub issues](https://img.shields.io/github/issues/Jfaler/Bitcoin-Slot-Machine.svg)](https://github.com/Jfaler/Bitcoin-Slot-Machine/issues)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/Jfaler/Bitcoin-Slot-Machine/master/LICENSE)
 
 # Bitcoin-Slot-Machine
 User accounts are anonymous and created with a unique hash.  Slots are progressive. Weekly and Monthly jackpots take from slot rolls.
