@@ -11,7 +11,7 @@ https://jfaler.github.io/Bitcoin-Slot-Machine/
 
 ## Installation
 `
-$ git clone https://github.com/Jfaler/soup
+$ git clone https://github.com/Jfaler/Bitcoin-Slot-Machine
 `
 ## TODO 
 
