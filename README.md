@@ -20,14 +20,14 @@ Help is greatly appreciated, feel free to submit pull-requests or open issues.
 
 ### Features
 
-* 🎰 Designed as high performance crypto currency slot machine.
+* 🎰 Designed as a high performance crypto-currency slot machine.
 * #️ Built-in high performance RNG-engine.
 * ⚖️ Built-in [Proof of Solvency] Audit.
 * 💡 Usability and scalability.
 * ⚛️ Supports multiple digital currencies (eg. Bitcoin, Litecoin, Dogecoin etc.).
 * 📖 Powerful admin dashboard and management tools.
 * 🔧 Highly configurable and extendable.
-* 🔐 Industry standard security out of box.
+* 🔐 Industry standard security out of the box.
 * 💬 Active community behind.
 
 ### Requirements
@@ -51,7 +51,7 @@ $ git clone https://github.com/Jfaler/Bitcoin-Slot-Machine
 
 ### Getting Involved
 
-Want to report a bug, request a feature, contribute or translate Bitlits?
+Want to report a bug, request a feature, contribute or translate Bitcoin-Slot-Machine?
 
 * Browse our [issues](https://github.com/Jfaler/bitcoin-slot-machine/issues), comment on proposals, report bugs.
 * Clone the bitcoin-slot-machine repo, make some changes according to our development guidelines and issue a pull-request with your changes.
