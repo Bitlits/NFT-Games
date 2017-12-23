@@ -1,6 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/Jfaler/Bitcoin-Slot-Machine.svg)](https://github.com/Jfaler/Bitcoin-Slot-Machine/issues)
 
-:memo: Available Translations: [Korean](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/ko-KR/project/README.md) | [Simplified Chinese](https://github.com/Jfaler/bitlits/tree/master/docs-translations/zh-CN/project/README.md) | [Brazilian Portuguese](https://github.com/Jfaler/bitlits/tree/master/docs-translations/pt-BR/project/README.md) | [Traditional Chinese](https://github.com/Jfaler/bitlits/tree/master/docs-translations/zh-TW/project/README.md) | [Spanish](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/es/project/README.md) | [Turkish](https://github.com/Jfaler/bitlits/tree/master/docs-translations/tr-TR/project/README.md) | [German](https://github.com/Jfaler/bitlits/tree/master/docs-translations/de-DE/project/README.md)
+:memo: Available Translations: [Korean](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/ko-KR/project/README.md) | [Simplified Chinese](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/zh-CN/project/README.md) | [Brazilian Portuguese](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/pt-BR/project/README.md) | [Traditional Chinese](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/zh-TW/project/README.md) | [Spanish](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/es/project/README.md) | [Turkish](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/tr-TR/project/README.md) | [German](https://github.com/Jfaler/bitcoin-slot-machine/tree/master/docs-translations/de-DE/project/README.md)
 
 # Bitcoin-Slot-Machine
 User accounts are anonymous and created with a unique hash.  Slots are progressive. Weekly and Monthly jackpots take from slot rolls.
@@ -24,7 +24,7 @@ Help is greatly appreciated, feel free to submit pull-requests or open issues.
 * Built-in high performance RNG-engine.
 * Built-in [Proof of Solvency] Audit.
 * Usability and scalability.
-* Support multiple digital currencies (eg. Bitcoin, Litecoin, Dogecoin etc.).
+* Supports multiple digital currencies (eg. Bitcoin, Litecoin, Dogecoin etc.).
 * Powerful admin dashboard and management tools.
 * Highly configurable and extendable.
 * Industry standard security out of box.
