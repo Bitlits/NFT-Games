@@ -22,9 +22,9 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Feedback](#feedback)
+- [Feedback](#getting-involved)
 - [Mission](#mission)
-- [Installation](#installation-)
+- [Installation](#installation)
 - [Sponsors](#donate)
 
 ## Introduction
@@ -57,7 +57,7 @@ Help is greatly appreciated, feel free to submit pull-requests or open issues.
 
 ## Release History
 
-* 1.0.1.5
+* 1.0
     * CHANGE: Update docs (module code remains unchanged)
 
 ### Requirements
