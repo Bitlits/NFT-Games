@@ -57,7 +57,7 @@ Help is greatly appreciated, feel free to submit pull-requests or open issues.
 
 ## Release History
 
-* 1.0
+* 1.0.1.5
     * CHANGE: Update docs (module code remains unchanged)
 
 ### Requirements
