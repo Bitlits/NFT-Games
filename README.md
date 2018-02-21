@@ -1,4 +1,4 @@
-<h1 align="center"> Bitcoin Slot Machine </h1> <br>
+<h1 align="center"> Bitlits </h1> <br>
 <p align="center">
   <a href="https://doge.litecoinslotmachine.com">
   </a>
