@@ -92,11 +92,11 @@ Help is greatly appreciated, feel free to submit pull-requests or open issues.
 
 ### Clone
 
-- Clone this repo to your local machine using `sudo git clone https://github.com/Jfaler/Bitcoin-Casino`
+- Clone this repo to your local machine using `sudo git clone https://github.com/Jfaler/Bitcoin-Slot-Machine`
 
 ## Getting Involved
 
-Want to report a bug, request a feature, contribute or translate Bitcoin-Casino?
+Want to report a bug, request a feature, contribute or translate Bitcoin-Slot-Machine?
 
 
 ### Step 1
@@ -108,7 +108,7 @@ Want to report a bug, request a feature, contribute or translate Bitcoin-Casino?
     - 👯 Clone this repo to your local machine using `https://github.com/Jfaler/Bitcoin-Slot-Machine.git`
 
 - **Option 3**
-    - 🔔 Browse our [issues](https://github.com/Jfaler/Bitcoin-Casino/issues), comment on proposals, report bugs.
+    - 🔔 Browse our [issues](https://github.com/Jfaler/Bitcoin-Slot-Machine/issues), comment on proposals, report bugs.
 
 ### Step 2
 
