@@ -1,9 +1,8 @@
 <p align="center">
 <img src="https://i.postimg.cc/HLmRx2My/logo.png" width="140" align="center">
   </p>
-<h1 align="center"> Bitlits </h1> <br>
 <p align="center">
-  <a href="https://doge.litecoinslotmachine.com">
+  <a href="https://bitlits.com">
   </a>
 </p>
 
