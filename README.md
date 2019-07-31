@@ -23,28 +23,13 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
 - [Feedback](#getting-involved)
-- [Mission](#mission)
 - [Installation](#installation)
 - [Sponsors](#donate)
 
-## Introduction
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/altcoincasino/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-[![GitHub issues](https://img.shields.io/github/issues/Jfaler/bitcoin-slot-machine.svg)](https://github.com/Jfaler/Bitcoin-Slot-Machine/issues)
-
-:memo: Available Translations: [Korean](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/KO_README.md) | [Simplified Chinese](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/) | [Brazilian Portuguese](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/) | [Traditional Chinese](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/) | [Spanish](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/) | [Turkish](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/) | [German](https://github.com/Jfaler/bitcoin-slot-machine/blob/master/doc/)
-User accounts are anonymous and created with a unique hash.  Slots are progressive. Weekly and Monthly jackpots take from slot rolls.
-https://jfaler.github.io/Bitcoin-Slot-Machine/
-Official repository for Bitcoin Slot Machine a crypto-currency casino implementation with the PHP framework and other cutting-edge technology.
-
-
-### Mission
-
-Our mission is to build the worlds best crypto-currency game with a high performance gaming engine which can be trusted and enjoyed by users. Additionally, we want to move the crypto-currency gaming technology forward by providing support and add new features. We are helping people to build their own crypto gaming site around the world.
-
-Help is greatly appreciated, feel free to submit pull-requests or open issues.
+## Translations
+:memo: Available Translations: 🇬🇷 [ελληνικά](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇫🇷 [Français](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇰🇷 [한국어](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/KO_README.md) | 🇨🇳 [普通話](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇹🇼 [台灣話](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇲🇽 [Español](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇹🇷 [Türkçe](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇩🇪 [Deutsch](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇮🇹 [Italiano](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇮🇳 [हिन्दी](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | [Arabic](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇵🇹 [Português](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇷🇺 [Русский язык](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇯🇵 [日本語](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇻🇳 [tiếng việt](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/)
 
 ### Features
 
@@ -124,7 +109,7 @@ Want to report a bug, request a feature, contribute or translate Bitcoin-Slot-Ma
     - Anything you want to tell us please send it to: 📥 [support@bitlits.com](mailto:support@bitlits.com)
     
 - **Option 2**
-    - If you need technical support or customization service, contact us: 📥 [contact@bitlits.com](mailto:contact@bitlits.com)
+    - If you need technical support or customization service, contact us: 📥 [support@bitlits.com](mailto:support@bitlits.com)
     
 ## Donate
-Every satoshi of your kind donation goes into the ongoing work of making this project more awesome. Want to sponsor this project? Send a donation & logo to: 📥 [contact@bitlits.com](mailto:contact@bitlits.com)
+Every satoshi of your kind donation goes into the ongoing work of making this project more awesome. Want to sponsor this project? Send a donation & logo to: 📥 [support@bitlits.com](mailto:support@bitlits.com)
