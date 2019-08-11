@@ -78,7 +78,7 @@
 
 ```
 $('.slot').jSlots({
-  number: 5,
+  	number: 5,
 	winnerNumber: 7,
 	spinner: '#play',
 	easing: 'easeOutSine',
