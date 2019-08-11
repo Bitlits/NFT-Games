@@ -74,6 +74,20 @@
 * Edit the configuration file `sudo nano /vendor/sql/phpliteadmin.conf.php`
 * Access PhpLiteAdmin Dashboard http://example.com/vendor/sql/phpliteadmin.php
 
+## Configuration
+
+```
+$('.slot').jSlots({
+  number: 5,
+	winnerNumber: 7,
+	spinner: '#play',
+	easing: 'easeOutSine',
+	onEnd: checkForWin,
+	onStart: clearResults,
+	loops: 6
+});
+```
+
 ### Clone
 
 - Clone this repo to your local machine using `sudo git clone https://github.com/Jfaler/Bitcoin-Slot-Machine`
