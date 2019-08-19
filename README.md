@@ -34,6 +34,7 @@
 
 * 🎰 Designed as a high performance crypto-currency slot machine.
 * 🧠 Built-in high performance RNG-engine.
+* 🙊 Anonymous login with no sign up required.
 * ⚖️ Built-in [Proof of Solvency] Audit.
 * 💡 Usability and scalability.
 * ⚛️ Supports multiple digital currencies (eg. Bitcoin, Litecoin, Dogecoin etc.).
