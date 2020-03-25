@@ -28,7 +28,7 @@
 - [Sponsors](#donate)
 
 ## Translations
-:memo: Available Translations: 🇬🇷 [ελληνικά](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇫🇷 [Français](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇰🇷 [한국어](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/KO_README.md) | 🇨🇳 [普通話](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇹🇼 [台灣話](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇲🇽 [Español](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇹🇷 [Türkçe](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇩🇪 [Deutsch](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇮🇹 [Italiano](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇮🇳 [हिन्दी](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | [Arabic](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇵🇹 [Português](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇷🇺 [Русский язык](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇯🇵 [日本語](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/) | 🇻🇳 [tiếng việt](https://github.com/Jfaler/Bitcoin-Slot-Machine/blob/master/doc/)
+:memo: Available Translations: 🇬🇷 [ελληνικά](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇫🇷 [Français](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇰🇷 [한국어](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/KO_README.md) | 🇨🇳 [普通話](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇹🇼 [台灣話](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇲🇽 [Español](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇹🇷 [Türkçe](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇩🇪 [Deutsch](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇮🇹 [Italiano](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇮🇳 [हिन्दी](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | [Arabic](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇵🇹 [Português](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇷🇺 [Русский язык](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇯🇵 [日本語](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/) | 🇻🇳 [tiếng việt](https://github.com/bitlits/Bitcoin-Slot-Machine/blob/master/doc/)
 
 ### Features
 
@@ -71,7 +71,7 @@
 * <p>Sign up with <a target="_blank" href="https://m.do.co/c/397fb2277475">Digital Ocean</a><img width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 * Install LAMP https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
 * Edit the configuration file `sudo nano /base/init.php`
-* Install Litecoin & start the Litecoin Daemon `sudo litecoind` https://github.com/Jfaler/Bitcoin-Casino/wiki/Install-Litecoin-for-Bitcoin-Casino-&-Bitcoin-Slot-Machine
+* Install Litecoin & start the Litecoin Daemon `sudo litecoind` https://github.com/bitlits/Bitcoin-Casino/wiki/Install-Litecoin-for-Bitcoin-Casino-&-Bitcoin-Slot-Machine
 * Edit the configuration file `sudo nano /vendor/sql/phpliteadmin.conf.php`
 * Access PhpLiteAdmin Dashboard http://example.com/vendor/sql/phpliteadmin.php
 
@@ -91,7 +91,7 @@ $('.slot').jSlots({
 
 ### Clone
 
-- Clone this repo to your local machine using `sudo git clone https://github.com/Jfaler/Bitcoin-Slot-Machine`
+- Clone this repo to your local machine using `sudo git clone https://github.com/bitlits/Bitcoin-Slot-Machine`
 
 ## Getting Involved
 
@@ -104,10 +104,10 @@ Want to report a bug, request a feature, contribute or translate Bitcoin-Slot-Ma
     - 🍴 Fork & star this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/Jfaler/Bitcoin-Slot-Machine.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/bitlits/Bitcoin-Slot-Machine.git`
 
 - **Option 3**
-    - 🔔 Browse our [issues](https://github.com/Jfaler/Bitcoin-Slot-Machine/issues), comment on proposals, report bugs.
+    - 🔔 Browse our [issues](https://github.com/bitlits/Bitcoin-Slot-Machine/issues), comment on proposals, report bugs.
 
 ### Step 2
 
@@ -115,7 +115,7 @@ Want to report a bug, request a feature, contribute or translate Bitcoin-Slot-Ma
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/jfaler/Bitcoin-Slot-Machine/compare/" target="_blank">`https://github.com/jfaler/Bitcoin-Slot-Machine/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/bitlits/Bitcoin-Slot-Machine/compare/" target="_blank">`https://github.com/bitlits/Bitcoin-Slot-Machine/compare/`</a>.
 
 ### Step 4
 
