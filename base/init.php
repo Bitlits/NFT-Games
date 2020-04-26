@@ -14,51 +14,21 @@ if(isset($_SERVER["REQUEST_URI"])){
 }
 
 $settings = array(
-	"name" => "WorldCoin Casino",
-	"url" => "http://worldcoincasino.com",
+	"name" => "Bitcoin Casino",
+	"url" => "http://bitlits.com",
 	"rate" => ".9",
-	"altcoin" => "WorldCoin",
-	"altcoinl" => "worldcoin",
-	"identifier" => "altcoinrpc",
+	"altcoin" => "Bitcoin",
+	"altcoinl" => "bitcoin",
+	"identifier" => "bitcoinrpc",
 	"password" => "Password",
 	"port" => "8332",
-	"altc" => "WDC",
+	"altc" => "BTC",
 );
-
-
-if(strpos($domain,"megacoincasino") !== false){
-	$settings = array(
-		"name" => "MegaCoin Casino",
-		"url" => "http://megacoincasino.com",
-		"rate" => ".9",
-		"altcoin" => "MegaCoin",
-		"altcoinl" => "megacoin",
-		"identifier" => "altcoinrpc",
-		"password" => "Password",
-		"port" => "8333",
-		"altc" => "MEC",
-	);
-}elseif(strpos($domain,"protosharescasino") !== false){
-	$settings = array(
-		"name" => "ProtoShares Casino",
-		"url" => "http://protosharescasino.com",
-		"rate" => ".9",
-		"altcoin" => "ProtoShares",
-		"altcoinl" => "protoshares",
-		"identifier" => "altcoinrpc",
-		"password" => "Password",
-		"port" => "8334",
-		"altc" => "PTS",
-	);
-}
-
-
 
 require_once(VENDOR."/Mustache/Autoloader.php");
 require_once(VENDOR."/jsonRPC/jsonRPCClient.php");
 require_once(VENDOR."/storage/rb.php");
 require_once(VENDOR."/ssh/Net/SSH2.php");
-
 
 R::setup('sqlite:'.BASE.'/data.sqlite','root','password');
 
@@ -72,15 +42,6 @@ $m = new Mustache_Engine(
 
 $altcoin = new jsonRPCClient('http://'.$settings["identifier"].':'.$settings["password"].'@localhost:'.$settings["port"]);
 
-
 require_once(BASE."/functions.php");
 require_once(BASE."/user.php");
-
-// echo "<!--\n";
-// print_r($altcoin->getaccountaddress("slots"));
-// echo "\n-->";
-
-
-$altcoinInfo = $altcoin->getinfo();
-
 ?>
