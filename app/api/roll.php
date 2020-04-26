@@ -22,7 +22,6 @@ if(!is_object($user)){
 	$user = R::load("user",$id);
 }
 
-
 $roll = R::dispense("roll");
 $roll->uuid = $uuid;
 $roll->first = rand(1,10);

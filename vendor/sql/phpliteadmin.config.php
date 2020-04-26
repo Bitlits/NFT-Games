@@ -1,4 +1,4 @@
-<?php 
+<?php
 //
 // This is sample configuration file
 //
@@ -13,7 +13,7 @@
 $password = 'pass1234word';
 
 //directory relative to this file to search for databases (if false, manually list databases in the $databases variable)
-$directory = '/srv/www/Domain.com/base';
+$directory = '/srv/www/yourdomainhere.com/base';
 
 //whether or not to scan the subdirectories of the above directory infinitely deep
 $subdirectories = false;
@@ -72,7 +72,7 @@ function mydate($value)
 
 function myreplace($value)
 {
-	return preg_replace('/[^A-Za-z0-9]/', '', strval($value));	
+	return preg_replace('/[^A-Za-z0-9]/', '', strval($value));
 }
 
 
@@ -86,4 +86,3 @@ $debug = false;
 
 // the user is allowed to create databases with only these extensions
 $allowed_extensions = array('db','db3','sqlite','sqlite3');
-
