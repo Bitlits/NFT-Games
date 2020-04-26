@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013-2020 Bitlits.
+ * @link 		https://github.com/bitlits/bitcoin-casino
+*/
 $content = array(
 	"title" => $settings["name"],
 	"slots" => true,

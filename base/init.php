@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013-2020
+ * @link 		https://github.com/bitlits/bitcoin-casino
+*/
 
 if(isset($_SERVER["HTTP_HOST"]))
 	$domain = $_SERVER['HTTP_HOST'];

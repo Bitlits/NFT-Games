@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013-2020 Bitlits.
+ * @link 		https://github.com/bitlits/bitcoin-casino
+*/
 $address = getVar("address");
 $amount = getVar("amount");
 

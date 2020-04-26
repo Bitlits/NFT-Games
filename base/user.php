@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013-2020
+ * @link 		https://github.com/bitlits/bitcoin-casino
+*/
 session_start();
 
 $key = getVar("key");

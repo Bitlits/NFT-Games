@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013-2020 Bitlits.
+ * @link 		https://github.com/bitlits/bitcoin-casino
+*/
 $content = array(
 	"title" => $settings["name"],
 	"profile" => true,
@@ -16,7 +20,7 @@ if(is_object($user)){
 		$user->balance = $altcoin->getbalance($key);
 	}
 	$user->updated = time();
-	R::store($user);	
+	R::store($user);
 	$content["user"]=$user->export();
 }
 

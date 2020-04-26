@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013- Bitlits.
+ * @link 		https://github.com/bitlits/bitcoin-casino
+*/
 
 define("ROOT",dirname(__FILE__));
 define("BASE",ROOT."/base");

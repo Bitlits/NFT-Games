@@ -1,8 +1,8 @@
 <?php
-/*
-🦉 Justin Faler
-🧪 https://github.com/Jfaler
-🧠 Base 64: UHJvcGVydHkgb2YgQml0bGl0cy5jb20gLyBQbGVhc2UgY29udGFjdCBpbW1lZGlhdGVseSBpZiB0aGlzIHByb2R1Y3QgaXMgdW5saWNlbnNlZC4=
+/**
+ * @author 		Bitlits <support@bitlits.com>
+ * @copyright 	2013-2020 Bitlits.
+ * @link 		https://github.com/bitlits/bitcoin-casino
 */
 
 cors();
